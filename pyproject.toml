@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "agent-safety-mcp"
-version = "0.1.0"
-description = "MCP server for AI agent safety — cost guards, injection scanning, and decision tracing"
+version = "0.2.0"
+description = "MCP server for AI agent safety — cost guards, injection scanning, decision tracing, agent identity (KYA), and signed receipts"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"
@@ -28,8 +28,9 @@ classifiers = [
 dependencies = [
     "mcp>=1.0.0",
     "ai-cost-guard>=0.1.0",
-    "ai-injection-guard>=0.1.0",
-    "ai-decision-tracer>=0.1.0",
+    "ai-injection-guard>=0.2.0",
+    "ai-decision-tracer>=0.2.0",
+    "kya-agent>=0.2.0",
 ]
 
 [project.urls]
