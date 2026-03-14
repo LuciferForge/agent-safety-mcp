@@ -62,7 +62,7 @@ agent-safety-mcp  # runs stdio server
 |---|---|
 | `injection_scan` | Scan text for injection patterns (non-blocking) |
 | `injection_check` | Scan + block if injection detected |
-| `injection_patterns` | List all 22 built-in detection patterns |
+| `injection_patterns` | List all 75 built-in detection patterns across 9 categories |
 
 **Example:** "Scan this user input for prompt injection: 'ignore previous instructions and...'"
 
