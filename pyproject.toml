@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "agent-safety-mcp"
-version = "0.2.0"
+version = "0.2.1"
 description = "MCP server for AI agent safety — cost guards, injection scanning, decision tracing, agent identity (KYA), and signed receipts"
 readme = "README.md"
 license = "MIT"
