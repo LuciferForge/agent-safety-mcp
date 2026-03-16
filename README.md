@@ -8,6 +8,8 @@
 
 Works with Claude Code, Cursor, Windsurf, Zed, and any MCP client.
 
+[![agent-safety-mcp MCP server](https://glama.ai/mcp/servers/LuciferForge/agent-safety-mcp/badges/card.svg)](https://glama.ai/mcp/servers/LuciferForge/agent-safety-mcp)
+
 ---
 
 ## Install
